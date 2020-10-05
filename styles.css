@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(0,0,0,0.9);
+    color: #ffdead;
+}
+.white-space {
+    white-space: pre;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.ascii-wrapper {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    margin: 2rem;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.sub-header{
+    text-align: left;
+    width
+}
+.width-adjustment {
+    width: 29rem;
+}
+@media screen and (max-width: 768px){
+    pre {
+        font-size: 0.5rem;
+    }
+    .width-adjustment {
+        width: 100%;
+    }
+}
